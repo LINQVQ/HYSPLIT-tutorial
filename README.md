@@ -2,25 +2,6 @@
 
 作者：林
 
-<!-- begin -->
-<div id="contact-email" style="margin-top: 10px;">
-    <p>联系邮箱：</p>
-    <script>
-        // 一个简单的邮箱混淆，防止被纯文本爬虫直接抓取
-        var user = 'LIINNN03';
-        var domain = 'outlook.com';
-        var element = document.createElement('a');
-        element.href = 'mailto:' + user + '@' + domain;
-        element.textContent = user + '@' + domain;
-        // 将链接插入到页面中
-        document.currentScript.parentElement.appendChild(element);
-    </script>
-    <noscript>
-        <p><i>（为保护隐私，邮箱地址需要启用JavaScript后才能显示。）</i></p>
-    </noscript>
-</div>
-<!-- end -->
-
 
 本内容为个人学习分享，欢迎参考使用。请勿用于商业用途或未经许可转载至其他平台（如微信公众号等）。
 
